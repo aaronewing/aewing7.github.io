@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css files/index.css">
+    <script type="text/javascript" src="JS files/signin.js"></script>
+    <title>Welcome to Fitly</title>
+</head>
+<body>
+    <video autoplay muted playsinline src="" type="" id="myVideo">
+        <script type="text/javascript" src="JS files/index.js"></script>
+    </video>
+<div class="content" id="content">
+    <p class="apptitle">FitLy</p>
+    <div class="buttons">
+        <button class="signin" type="button" onclick="openForm()">Sign-in</button>
+        <div class="space"></div>
+        <button class="signup" type="button" onclick="openFormUp()">Sign-up</button>
+    </div>
+    </div>
+<div class="Form">
+    <div class="container" id="myForm">
+        <div class="text">Sign-in</div>
+        <form id ="logform" action="javascript:void(0);">
+            <div class="data">
+                <label>Email</label>
+                <input type="text" id="email">
+            </div>
+            <div class="data">
+                <label>Password</label>
+                <input type="password" id="password">
+            </div>
+            <div class="invalid" id="invalid">
+                <p>Invalid Email! Please try again.</p>
+            </div>
+            <div class="invalid" id="invalidpass">
+                <p>Invalid Password (must be 6 characters with no special characters) Please try again.</p>
+            </div>
+            <div class="logbutn">
+                <button type="submit" onclick="checkEmail()">Submit</button>
+            </div>
+            <div class="logbutn">
+                <button type="submit" onclick="closeForm()">Cancel</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+<div class="Form">
+    <div class="container" id="myFormsignup">
+        <div class="text">Sign-up</div>
+        <form id ="upform" action="javascript:void(0);">
+            <div class="data">
+                <label>Email</label>
+                <input type="text" id="newemail">
+            </div>
+            <div class="data">
+                <label>Password</label>
+                <input type="password" id="newpassword">
+            </div>
+            <div class="data">
+                <label>Re-Enter Password</label>
+                <input type="password" id="checkpassword">
+            </div>
+            <div class="data">
+                <label>Country</label>
+                <select id="Country" name="Country">
+                    <option value = "#">United States of America</option>
+                    <option value = "#">Canada</option>
+                    <option value = "#">United Kingdom</option>
+                    <option value = "#">Mexico</option>
+                    <option value = "#" selected="selected">Select Country</option> 
+                    <option value = "#">Afghanistan</option> 
+                    <option value = "#">Albania</option> 
+                    <option value = "#">Algeria</option> 
+                    <option value = "#">American Samoa</option> 
+                    <option value = "#">Andorra</option> 
+                    <option value = "#">Angola</option> 
+                    <option value = "#">Anguilla</option> 
+                    <option value = "#">Antarctica</option> 
+                    <option value = "#">Antigua and Barbuda</option> 
+                    <option value = "#">Argentina</option> 
+                    <option value = "#">Armenia</option> 
+                    <option value = "#">Aruba</option> 
+                    <option value = "#">Australia</option> 
+                    <option value = "#">Austria</option> 
+                    <option value = "#">Azerbaijan</option> 
+                    <option value = "#">Bahamas</option> 
+                    <option value = "#">Bahrain</option> 
+                    <option value = "#">Bangladesh</option> 
+                    <option value = "#">Barbados</option> 
+                    <option value = "#">Belarus</option> 
+                    <option value = "#">Belgium</option> 
+                </select>
+            </div>
+            <div class="invalid" id="invalidemail">
+                <p>Invalid Email! Please try again.</p>
+            </div>
+            <div class="invalid" id="invalidpass2">
+                <p>Invalid Password (must be 6 characters with no special characters) Please try again.</p>
+            </div>
+            <div class="invalid" id="notmatch">
+                <p>Passwords do not match! Please try again.</p>
+            </div>
+            <div class="invalid" id="nocountry">
+                <p>Please select a country!</p>
+            </div>
+            <div class="logbutn">
+                <button type="submit" onclick="checkEmailUp()">Submit</button>
+            </div>
+            <div class="logbutn">
+                <button type="submit" onclick="closeFormUp()">Cancel</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>
