@@ -2,6 +2,7 @@ let videoSource = new Array();
 videoSource[0] = "videos/video1.mp4";
 videoSource[1] = "videos/video2.mp4";
 videoSource[2] = "videos/video3.mp4";
+videoSource[3] = "videos/video4.mp4";
 let i = 0;
 let videoCount = videoSource.length;
 let vidElement = document.getElementById('myVideo');

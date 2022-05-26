@@ -1,6 +1,8 @@
 # HTML/CSS/JS SBA: FitLy
 ## Created By Aaron Ewing
 
+### LINK TO HOSTED GITHUB SITE https://aewing7.github.io/
+
 ### INTRODUCTION:
 
 This project is the basic outline for a fitness app. It has a landing page where you can sign-in or log-in. A home page where you can select your next page. Currently, the only working page is the about me. This was done to keep the project simple while hitting all the requirements.
@@ -53,7 +55,7 @@ about.html has general information about me (placeholder information). It also h
 
 ## TECHONOLOGIES USED:
 
-Only Technologies used were CSS HTML and Javascript. I used GitHub to host the website (Link: )
+Only Technologies used were CSS HTML and Javascript. I used GitHub to host the website (Link: https://aewing7.github.io/ )
 
 
 
